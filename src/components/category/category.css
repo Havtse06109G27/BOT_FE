@@ -1,5 +1,31 @@
 .categoryBox {
-  width: 200px;
+  width: max-width;
   height: 200px;
   border: 1px solid #000;
+}
+
+.categoryBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.categoryTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryTitle .title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.categoryTitle .description {
+  font-size: 14px;
+  margin-bottom: 56px;
+}
+
+.bookImg {
+  width: 100px;
+  height: 100px;
 }
